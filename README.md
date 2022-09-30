@@ -2,7 +2,7 @@
 
 # test-fixtures-example
 
-Demonstrates Gradle `test-fixtures` Gradle plugin within a multi-project build.
+Demonstrates `test-fixtures` Gradle plugin within a multi-project build.
 
 There are 2 subprojects:
 1. *awesome-fixture* contains fixture code intended to be reused by tests within this multi-project build or other projects.
