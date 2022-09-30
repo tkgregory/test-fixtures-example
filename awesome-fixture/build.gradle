@@ -1,0 +1,16 @@
+plugins {
+    id 'maven-publish'
+    id 'java-library'
+    id 'java-test-fixtures'
+}
+
+group 'com.tomgregory'
+version '0.1.0-SNAPSHOT'
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+}
