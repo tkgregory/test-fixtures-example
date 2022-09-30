@@ -1,10 +1,6 @@
 package com.tomgregory;
 
-import java.util.Random;
-
-import static java.util.Arrays.asList;
-
-public class FavouriteCityGenerator {
+public class CityLocator {
     public String locateCity(String city) {
         if (city.equalsIgnoreCase("Berlin")) {
             return "Germany";
